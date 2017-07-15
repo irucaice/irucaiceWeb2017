@@ -28,13 +28,9 @@ h1 {
     padding: 30px;
 }
 
-header a {
+header a, footer a {
     text-decoration: none;
     color: #FFFFFF;
-}
-
-header a:hover{
-	color: #E8F1F5;
 }
 
 header ul {
@@ -54,10 +50,12 @@ section:nth-child(odd) {
 
 section {
     padding: 100px;
+	text-align: center;
 }
 
 div.content_box {
-    margin: 10px 200px;
+    width: 800px;
+	margin: 10px auto;
     overflow: hidden;
 }
 
@@ -69,16 +67,20 @@ h2 {
 /* ---------- #About ---------- */
 
 div.p_ul_box {
-	width: 500px;
+	width: 600px;
 	float: left;
 	margin: 0;
 }
 
-p, li {
-    text-align: left;
+div.p_img_box {
+	text-align: left;
+}
+
+p {
 }
 
 #about p.caption {
+    margin: 0;
 }
 
 img.my_icon {
@@ -92,8 +94,8 @@ i.fa {
 
 img.work_icon {
     border-radius: 10%;
-    width: 230px;
-    height: 230px;
+    width: 220px;
+    height: 220px;
     margin: 0 20px;
 }
 
