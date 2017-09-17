@@ -13,7 +13,7 @@ a {
 }
 
 a:hover{
-	color: #004A7C;
+	color: #7FA5BE;
 }
 
 /* ---------- header ---------- */
@@ -72,6 +72,10 @@ div.p_ul_box {
 	margin: 0;
 }
 
+ul.my_link a {
+	font-weight: bold;
+}
+
 div.p_img_box {
 	text-align: left;
 }
@@ -92,11 +96,36 @@ i.fa {
 	margin: 20px;
 }
 
-img.work_icon {
-    border-radius: 10%;
-    width: 220px;
-    height: 220px;
-    margin: 0 20px;
+/* ---------- #Work ---------- */
+
+.content_box {
+	text-align: left;
+}
+
+ul.work_row {
+	padding: 0;
+	margin: 40px 0;
+}
+
+ul.work_row li {
+	width: 220px;
+	height: 220px;
+	border-radius: 10%;
+	margin: 0 20px;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+}
+
+ul.work_row li img{
+	width: 220px;
+	height: 220px;
+ 	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+	
+ul.work_row li:hover img{
+	transform: scale(1.3);
 }
 
 footer {
